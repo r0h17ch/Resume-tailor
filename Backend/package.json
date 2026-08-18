@@ -1,0 +1,32 @@
+{
+  "name": "resume-tailor",
+  "version": "1.0.0",
+  "description": "tailor resumes according to job description. also help in getting higher ats score.",
+  "homepage": "https://github.com/r0h17ch/Resume-tailor#readme",
+  "bugs": {
+    "url": "https://github.com/r0h17ch/Resume-tailor/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r0h17ch/Resume-tailor.git"
+  },
+  "license": "ISC",
+  "author": "Rohit Chauhan",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "npx nodemon server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.9.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
